@@ -25,3 +25,5 @@ z = Boolean(z);
 console.log (x, typeof x); //String converted into NaN
 console.log (y, typeof y);
 console.log (z, typeof z); // String converted into true as long as there is value (0 is still value)
+
+//Darrell

@@ -1,0 +1,27 @@
+#countLabel{
+    /* Make sthe label into a block to style */
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+.button{
+    /*Order of format is top, right, bottom, left*/
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: blueviolet;
+    /*Rounds the corners of the buttons, larger => rounder*/
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover{
+    background-color: rgb(76, 24, 126);
+}
